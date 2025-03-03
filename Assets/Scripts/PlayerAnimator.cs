@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerAnimator : MonoBehaviour
 {
@@ -25,5 +27,5 @@ public class PlayerAnimator : MonoBehaviour
         {
             _animator.SetBool(Structs.AnimationParameters.isWalking, false);
         }
-}
+    }
 }
